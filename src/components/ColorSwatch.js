@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { useColor } from "./ColorContext";
 
 const ColorSwatch = () => {
-  const { setNewColor } = useColor();
-  const [setIsPaused] = useState(false);
+  const { setNewColor, isPaused, setIsPaused } = useColor();
 
   const colorArray = [
     "#ff5507",

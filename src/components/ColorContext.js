@@ -4,13 +4,16 @@ const ColorContext = createContext();
 
 export const ColorProvider = ({ children }) => {
   const [backgroundColor, setBackgroundColor] = useState("#ff5507");
+  const [isPaused, setIsPaused] = useState(false);
 
   const setNewColor = (newColor) => {
     setBackgroundColor(newColor);
   };
 
   return (
-    <ColorContext.Provider value={{ backgroundColor, setNewColor }}>
+    <ColorContext.Provider
+      value={{ backgroundColor, setNewColor, isPaused, setIsPaused }}
+    >
       {children}
     </ColorContext.Provider>
   );

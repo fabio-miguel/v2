@@ -3,8 +3,12 @@ import { useColor } from "./ColorContext";
 import PosterLogo from "../images/hero/Poster-Logo.png";
 
 const Hero = () => {
-  const { setNewColor, backgroundColor } = useColor();
-  const [isPaused, setIsPaused] = useState(false);
+  const {
+    setNewColor,
+    setIsPaused,
+    backgroundColor: currentBackgroundColor,
+    isPaused,
+  } = useColor();
   const [colorIndex, setColorIndex] = useState(0);
 
   useEffect(() => {
@@ -31,7 +35,7 @@ const Hero = () => {
   }, [isPaused, colorIndex, setNewColor]);
 
   const handlePauseClick = () => {
-    setIsPaused(!isPaused);
+    setIsPaused((prevIsPaused) => !prevIsPaused);
   };
 
   return (
@@ -39,7 +43,7 @@ const Hero = () => {
       <section
         id="hero"
         className="hero"
-        style={{ background: backgroundColor }}
+        style={{ background: currentBackgroundColor }}
       >
         <div className="container">
           <div className="hero-content">
