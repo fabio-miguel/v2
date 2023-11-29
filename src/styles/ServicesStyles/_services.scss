@@ -27,6 +27,15 @@
     text-transform: uppercase;
     transform: rotate(-90deg) translate(30%, -40%);
     transform-origin: left;
+    @media screen and (max-width: 760px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-height: 769px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-height: 414px) {
+      font-size: 3rem;
+    }
   }
 
   .blue {
@@ -70,10 +79,34 @@
         color: var(--header-about);
         h2 {
           font-size: 12rem;
+          @media screen and (max-width: 760px) {
+            font-size: 7rem;
+          }
+          @media screen and (max-height: 769px) {
+            font-size: 7rem;
+          }
+          @media screen and (max-width: 414px) {
+            font-size: 5rem;
+          }
+          @media screen and (max-height: 430px) {
+            font-size: 4rem;
+          }
         }
         p {
           padding: 4rem;
           font-size: 3rem;
+          @media screen and (max-width: 760px) {
+            font-size: 1.75rem;
+          }
+          @media screen and (max-height: 769px) {
+            font-size: 1.75rem;
+          }
+          @media screen and (max-width: 414px) {
+            font-size: 1.25rem;
+          }
+          @media screen and (max-height: 430px) {
+            font-size: 1.25rem;
+          }
         }
       }
     }
@@ -84,16 +117,53 @@
   border-top: 2px solid black;
   h3 {
     font-size: 4rem;
+    padding: 0 2rem;
+    @media screen and (max-width: 760px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-height: 760px) {
+      font-size: 2.5rem;
+    }
+    @media screen and (max-width: 414px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-height: 430px) {
+      font-size: 2rem;
+    }
   }
   h4 {
     font-size: 4rem;
     color: gray;
+    @media screen and (max-width: 760px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-height: 760px) {
+      font-size: 2.5rem;
+    }
+    @media screen and (max-width: 414px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-height: 430px) {
+      font-size: 2rem;
+    }
   }
   ul {
     padding: 4rem;
     li {
       font-size: 3rem;
       list-style-type: none;
+      @media screen and (max-width: 760px) {
+        font-size: 1.75rem;
+      }
+      @media screen and (max-height: 769px) {
+        font-size: 1.75rem;
+      }
+      @media screen and (max-width: 414px) {
+        font-size: 1.25rem;
+      }
+      @media screen and (max-height: 430px) {
+        font-size: 1.25rem;
+      }
     }
   }
 }

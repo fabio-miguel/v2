@@ -43,7 +43,7 @@ const Services = () => {
                 </p>
               </div>
               <div className="service-1">
-                <h4>Included in all Services</h4>
+                <h4>Included in All Services</h4>
                 <ul>
                   <li>SEO</li>
                   <li>Project Scoping</li>

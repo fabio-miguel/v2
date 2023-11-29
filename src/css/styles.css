@@ -533,6 +533,21 @@ nav .container ul li a:hover {
   transform: rotate(-90deg) translate(30%, -40%);
   transform-origin: left;
 }
+@media screen and (max-width: 760px) {
+  #releases-page h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  #releases-page h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-height: 414px) {
+  #releases-page h1 {
+    font-size: 3rem;
+  }
+}
 #releases-page .blue {
   color: #0091e5;
 }
@@ -567,9 +582,49 @@ nav .container ul li a:hover {
 #releases-page .container .releases-page-content .releases-page-description h2 {
   font-size: 12rem;
 }
+@media screen and (max-width: 760px) {
+  #releases-page .container .releases-page-content .releases-page-description h2 {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  #releases-page .container .releases-page-content .releases-page-description h2 {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  #releases-page .container .releases-page-content .releases-page-description h2 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  #releases-page .container .releases-page-content .releases-page-description h2 {
+    font-size: 4rem;
+  }
+}
 #releases-page .container .releases-page-content .releases-page-description p {
   padding: 4rem;
   font-size: 3rem;
+}
+@media screen and (max-width: 760px) {
+  #releases-page .container .releases-page-content .releases-page-description p {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  #releases-page .container .releases-page-content .releases-page-description p {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  #releases-page .container .releases-page-content .releases-page-description p {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  #releases-page .container .releases-page-content .releases-page-description p {
+    font-size: 1.25rem;
+  }
 }
 #releases-page .container .releases-page-content .releases-page-description h3 {
   padding: 4rem;
@@ -577,15 +632,52 @@ nav .container ul li a:hover {
   font-style: italic;
   color: var(--availability-text);
 }
+@media screen and (max-width: 760px) {
+  #releases-page .container .releases-page-content .releases-page-description h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-height: 760px) {
+  #releases-page .container .releases-page-content .releases-page-description h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  #releases-page .container .releases-page-content .releases-page-description h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  #releases-page .container .releases-page-content .releases-page-description h3 {
+    font-size: 1rem;
+  }
+}
 
 .releases-grid {
   display: grid;
   padding: 4rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
+@media screen and (max-width: 767px) {
+  .releases-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
 .releases-grid img {
   width: 20rem;
   transition: 0.3s ease-in;
+}
+@media screen and (max-width: 767px) {
+  .releases-grid img {
+    width: 17rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .releases-grid img {
+    width: 13rem;
+  }
 }
 .releases-grid img:hover {
   transform: scale(1.25);
@@ -616,6 +708,21 @@ nav .container ul li a:hover {
   text-transform: uppercase;
   transform: rotate(-90deg) translate(30%, -40%);
   transform-origin: left;
+}
+@media screen and (max-width: 760px) {
+  #services-page h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  #services-page h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-height: 414px) {
+  #services-page h1 {
+    font-size: 3rem;
+  }
 }
 #services-page .blue {
   color: #0091e5;
@@ -651,9 +758,49 @@ nav .container ul li a:hover {
 #services-page .container .services-page-content .services-page-description h2 {
   font-size: 12rem;
 }
+@media screen and (max-width: 760px) {
+  #services-page .container .services-page-content .services-page-description h2 {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  #services-page .container .services-page-content .services-page-description h2 {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  #services-page .container .services-page-content .services-page-description h2 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  #services-page .container .services-page-content .services-page-description h2 {
+    font-size: 4rem;
+  }
+}
 #services-page .container .services-page-content .services-page-description p {
   padding: 4rem;
   font-size: 3rem;
+}
+@media screen and (max-width: 760px) {
+  #services-page .container .services-page-content .services-page-description p {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  #services-page .container .services-page-content .services-page-description p {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  #services-page .container .services-page-content .services-page-description p {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  #services-page .container .services-page-content .services-page-description p {
+    font-size: 1.25rem;
+  }
 }
 
 .service-1 {
@@ -661,10 +808,51 @@ nav .container ul li a:hover {
 }
 .service-1 h3 {
   font-size: 4rem;
+  padding: 0 2rem;
+}
+@media screen and (max-width: 760px) {
+  .service-1 h3 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-height: 760px) {
+  .service-1 h3 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .service-1 h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  .service-1 h3 {
+    font-size: 2rem;
+  }
 }
 .service-1 h4 {
   font-size: 4rem;
   color: gray;
+}
+@media screen and (max-width: 760px) {
+  .service-1 h4 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-height: 760px) {
+  .service-1 h4 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .service-1 h4 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  .service-1 h4 {
+    font-size: 2rem;
+  }
 }
 .service-1 ul {
   padding: 4rem;
@@ -672,6 +860,26 @@ nav .container ul li a:hover {
 .service-1 ul li {
   font-size: 3rem;
   list-style-type: none;
+}
+@media screen and (max-width: 760px) {
+  .service-1 ul li {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-height: 769px) {
+  .service-1 ul li {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .service-1 ul li {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-height: 430px) {
+  .service-1 ul li {
+    font-size: 1.25rem;
+  }
 }
 
 .call-to-action {

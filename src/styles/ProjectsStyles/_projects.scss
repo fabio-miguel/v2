@@ -21,6 +21,15 @@
     text-transform: uppercase;
     transform: rotate(-90deg) translate(30%, -40%);
     transform-origin: left;
+    @media screen and (max-width: 760px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-height: 769px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-height: 414px) {
+      font-size: 3rem;
+    }
   }
 
   .blue {
@@ -64,16 +73,52 @@
         color: var(--header-about);
         h2 {
           font-size: 12rem;
+          @media screen and (max-width: 760px) {
+            font-size: 7rem;
+          }
+          @media screen and (max-height: 769px) {
+            font-size: 7rem;
+          }
+          @media screen and (max-width: 414px) {
+            font-size: 5rem;
+          }
+          @media screen and (max-height: 430px) {
+            font-size: 4rem;
+          }
         }
         p {
           padding: 4rem;
           font-size: 3rem;
+          @media screen and (max-width: 760px) {
+            font-size: 1.75rem;
+          }
+          @media screen and (max-height: 769px) {
+            font-size: 1.75rem;
+          }
+          @media screen and (max-width: 414px) {
+            font-size: 1.25rem;
+          }
+          @media screen and (max-height: 430px) {
+            font-size: 1.25rem;
+          }
         }
         h3 {
           padding: 4rem;
           font-size: 2rem;
           font-style: italic;
           color: var(--availability-text);
+          @media screen and (max-width: 760px) {
+            font-size: 1.5rem;
+          }
+          @media screen and (max-height: 760px) {
+            font-size: 1.5rem;
+          }
+          @media screen and (max-width: 414px) {
+            font-size: 1rem;
+          }
+          @media screen and (max-height: 430px) {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -84,9 +129,20 @@
   display: grid;
   padding: 4rem;
   grid-template-columns: 1fr 1fr 1fr;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
   img {
     width: 20rem;
     transition: 0.3s ease-in;
+    @media screen and (max-width: 767px) {
+      width: 17rem;
+    }
+    @media screen and (max-width: 300px) {
+      width: 13rem;
+    }
   }
   img:hover {
     transform: scale(1.25);
