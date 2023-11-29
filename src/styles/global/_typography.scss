@@ -1,0 +1,38 @@
+// font family
+
+@font-face {
+  font-family: "Digital";
+  src: local("Digital"),
+    url("..//Fonts/Open-24-Display-St.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Podium";
+  src: local("Podium"),
+    url("..//Fonts/Fontspring-DEMO-podiumsharp-9.12.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Liquid";
+  src: local("Liquid"),
+    url("..//Fonts/LiquidCrystal-ExBold.otf") format("truetype");
+  font-weight: bold;
+}
+// $titles-font: "Karla", sans-serif;
+// $text-font: "Karla", sans-serif;
+
+// $titles-font: "Jost", sans-serif;
+// $text-font: "Jost", sans-serif;
+
+$titles-font: "Kumbh Sans", sans-serif;
+$text-font: "Kumbh Sans", sans-serif;
+
+// sizes
+$h1-size: 5.2rem;
+$h2-size: 4.2rem;
+$h3-size: 2.4rem;
+$h4-size: 2.2rem;
+$p-size: 1.6rem;
+$input-size: 1.4rem;

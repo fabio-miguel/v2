@@ -1,0 +1,94 @@
+@use "../global/" as *;
+
+#releases-page {
+  position: relative;
+  color: #0091e5;
+  font-family: "Arimo", sans-serif;
+  background: var(--background-page);
+  height: calc(100vh - var(--navbar-height));
+  // FABIOMIGUEL TITLE --------
+  .right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  h1 {
+    font-size: 7em;
+    letter-spacing: -0.1em;
+    mix-blend-mode: multiply;
+    position: fixed;
+    text-transform: uppercase;
+    transform: rotate(-90deg) translate(30%, -40%);
+    transform-origin: left;
+  }
+
+  .blue {
+    color: #0091e5;
+  }
+
+  .red {
+    color: #e42149;
+  }
+
+  .yellow {
+    color: #fff146;
+  }
+
+  @mixin transform($vert) {
+    transform: rotate(-90deg) translate($vert, -40%);
+  }
+
+  .first {
+    @include transform(30%);
+  }
+
+  .second {
+    @include transform(32.5%);
+  }
+
+  .third {
+    @include transform(35%);
+  }
+  // END of FABIOMIGUEL TITLE --------
+
+  .container {
+    height: 100%;
+    .releases-page-content {
+      height: 100%;
+      .releases-page-description {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10rem;
+        color: var(--header-about);
+        h2 {
+          font-size: 12rem;
+        }
+        p {
+          padding: 4rem;
+          font-size: 3rem;
+        }
+        h3 {
+          padding: 4rem;
+          font-size: 2rem;
+          font-style: italic;
+          color: var(--availability-text);
+        }
+      }
+    }
+  }
+}
+
+.releases-grid {
+  display: grid;
+  padding: 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  img {
+    width: 20rem;
+    transition: 0.3s ease-in;
+  }
+  img:hover {
+    transform: scale(1.25);
+  }
+}

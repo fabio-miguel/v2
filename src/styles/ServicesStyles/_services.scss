@@ -1,0 +1,99 @@
+@use "../global/" as *;
+
+/*
+* --------------------------------------------------
+* Services Page
+* --------------------------------------------------
+*/
+
+#services-page {
+  position: relative;
+  color: #0091e5;
+  font-family: "Arimo", sans-serif;
+  background: var(--background-page);
+  height: calc(100vh - var(--navbar-height));
+  // FABIOMIGUEL TITLE --------
+  .right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  h1 {
+    font-size: 7em;
+    letter-spacing: -0.1em;
+    mix-blend-mode: multiply;
+    position: fixed;
+    text-transform: uppercase;
+    transform: rotate(-90deg) translate(30%, -40%);
+    transform-origin: left;
+  }
+
+  .blue {
+    color: #0091e5;
+  }
+
+  .red {
+    color: #e42149;
+  }
+
+  .yellow {
+    color: #fff146;
+  }
+
+  @mixin transform($vert) {
+    transform: rotate(-90deg) translate($vert, -40%);
+  }
+
+  .first {
+    @include transform(30%);
+  }
+
+  .second {
+    @include transform(32.5%);
+  }
+
+  .third {
+    @include transform(35%);
+  }
+  // END of FABIOMIGUEL TITLE --------
+
+  .container {
+    height: 100%;
+    .services-page-content {
+      height: 100%;
+      .services-page-description {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10rem;
+        color: var(--header-about);
+        h2 {
+          font-size: 12rem;
+        }
+        p {
+          padding: 4rem;
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.service-1 {
+  border-top: 2px solid black;
+  h3 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 4rem;
+    color: gray;
+  }
+  ul {
+    padding: 4rem;
+    li {
+      font-size: 3rem;
+      list-style-type: none;
+    }
+  }
+}
