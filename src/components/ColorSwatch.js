@@ -3,7 +3,7 @@ import { useColor } from "./ColorContext";
 
 const ColorSwatch = () => {
   const { setNewColor } = useColor();
-  const [isPaused, setIsPaused] = useState(false);
+  const [setIsPaused] = useState(false);
 
   const colorArray = [
     "#ff5507",
@@ -15,7 +15,7 @@ const ColorSwatch = () => {
   ];
 
   const handleColorClick = (color) => {
-    setIsPaused(true); // Pause the interval when a color is clicked
+    setIsPaused(true);
     setNewColor(color);
   };
 
