@@ -1,6 +1,22 @@
+import { Helmet } from "react-helmet-async";
 const Services = () => {
   return (
     <>
+      <Helmet>
+        <title>Services - fabiomiguel.com</title>
+        <meta
+          name="description"
+          content="Fabio Miguel. www.fabiomiguel.com. Headless Shopify websites & API based Content Management Systems"
+        />
+        <meta
+          property="og:description"
+          content="Fabio Miguel. www.fabiomiguel.com. Headless Shopify websites & API based Content Management Systems"
+        />
+        <meta
+          property="og:title"
+          content="Fabio Miguel - Web Developer - Shopify Developer "
+        />
+      </Helmet>
       <div id="services-page">
         <div className="container">
           <div className="services-page-content">

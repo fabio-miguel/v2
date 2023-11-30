@@ -1,9 +1,24 @@
 import GolfImg from "../images/projects/Golf-cover.jpg";
 import SkateImg from "../images/projects/SKTBS-cover.jpg";
-
+import { Helmet } from "react-helmet-async";
 const Releases = () => {
   return (
     <>
+      <Helmet>
+        <title>Releases - fabiomiguel.com</title>
+        <meta
+          name="description"
+          content="Fabio Miguel. www.fabiomiguel.com. Examples of Headless Shopify websites & Frontend Development"
+        />
+        <meta
+          property="og:description"
+          content="Fabio Miguel. www.fabiomiguel.com. Examples of Headless Shopify websites & Frontend Development"
+        />
+        <meta
+          property="og:title"
+          content="Fabio Miguel - Web Developer - Shopify Website References"
+        />
+      </Helmet>
       <div id="releases-page">
         <div className="container">
           <div className="releases-page-content">
