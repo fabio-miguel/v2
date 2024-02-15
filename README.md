@@ -1,6 +1,4 @@
-<div align='center'><img src="src/images/github/fm_logo.png"/></div>
-
-# fabiomiguel.com - v1
+# fabiomiguel.com - v2
 
 The fist iteration of fabiomiguel.com built with React and hosted with Netlify
 
@@ -10,7 +8,8 @@ The fist iteration of fabiomiguel.com built with React and hosted with Netlify
 
 ## Screenshots
 
-![App Screenshot](src/images/github/fabio_miguel_portfolio_website_screenshot.png)
+![App Screenshot](src/images/github/homepage.png)
+![App Screenshot](src/images/github/homepage-reel.png)
 
 ## Installation
 
@@ -29,6 +28,3 @@ To start the development server, run the following command:
 ```
 
 The application will be available at http://localhost:3000
-# v3
-# v3
-# v3
