@@ -1,6 +1,8 @@
 # fabiomiguel.com - v2
 
-The fist iteration of fabiomiguel.com built with React and hosted with Netlify
+The Second iteration of fabiomiguel.com built with React and hosted with Netlify
+
+Previous Iterations: [v1](https://github.com/fabio-miguel/V1)
 
 ## Tech Stack
 
