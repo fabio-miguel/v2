@@ -10,6 +10,7 @@ The fist iteration of fabiomiguel.com built with React and hosted with Netlify
 
 ![App Screenshot](src/images/github/homepage.png)
 ![App Screenshot](src/images/github/homepage-reel.gif)
+![App Screenshot](src/images/github/services.png)
 
 ## Installation
 
